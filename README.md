@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnjnrn%2Fword-guessing-game.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnjnrn%2Fword-guessing-game?ref=badge_shield)
+
 Word Guessing Game
 
 This is a clone project of a popular word guessing game made using React, Typescript, and Tailwind.
@@ -33,3 +35,7 @@ _To create a version in a different language:_
 - If the language has letters that are not present in English, add them to the `CharValue` type in `src/lib/statuses.ts` and update the keyboard in `src/lib/components/keyboard/Keyboard.tsx`
 - If the language's letters are made of multiple unicode characters, use a grapheme splitter at various points throughout the app or normalize the input so that all of the letters are made of a single character
 - If the language is written right-to-left, add `dir="rtl"` to the HTML tag in `public/index.html` and prepend `\u202E` (the unicode right-to-left override character) to the return statement of the inner function in `generateEmojiGrid` in `src/lib/share.ts`
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnjnrn%2Fword-guessing-game.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnjnrn%2Fword-guessing-game?ref=badge_large)
