@@ -11,7 +11,7 @@
     "@types/jest": "^27.4.0",
     "@types/node": "^16.11.19",
     "@types/react": "^17.0.38",
-    "@types/react-dom": "^17.0.11",
+    "@types/react-dom": "^17.0.17",
     "classnames": "^2.3.1",
     "react": "^17.0.2",
     "react-countdown": "^2.3.2",
